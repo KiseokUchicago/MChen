@@ -1,7 +1,7 @@
-name: "MingjieChen_RNAseq"
+name: MingjieChen_RNAseq
 output_dir: ../docs
 navbar:
-  title: "MingjieChen_RNAseq"
+  title: MingjieChen_RNAseq
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/KiseokUchicago/MChen
 output:
   workflowr::wflow_html:
     toc: yes
